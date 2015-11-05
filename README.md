@@ -1,5 +1,5 @@
 # FFmpeg-commands
-This repository is intended to collect useful ffmpeg command.
+This repository is intended to collect useful ffmpeg commands.
 
 
 ### CROP
