@@ -1,4 +1,7 @@
 # FFmpeg-commands
+This repository is intended to collect useful ffmpeg command.
+
+
 ### CROP
 Crop a video witouth transcode it.
 
