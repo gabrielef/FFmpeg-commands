@@ -26,3 +26,13 @@ Cut a video at particular moment without transcode it. Time is in the form of hh
 ***-ss***: starting moment for the cut;
 
 ***-t***: cut duration;
+
+
+###ROTATE
+Rotate a video without transcode it.
+
+    ffmpeg -i original-video.mp4 -vf "transpose=2" -qscale 0 -y rotated-video.mp4
+
+***-vf***: video filter to set the rotation type. "transpose=2" is 90° counterclockwise, "transpose=3" is 90° clockwise, "vflip" vertical flip  
+
+***-qscale***: quality factor;
