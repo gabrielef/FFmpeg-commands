@@ -36,3 +36,9 @@ Rotate a video without transcode it.
 ***-vf***: video filter to set the rotation type. "transpose=2" is 90° counterclockwise, "transpose=3" is 90° clockwise, "vflip" vertical flip  
 
 ***-qscale***: quality factor;
+
+
+###CHANGE CONTAINER
+Change the container of the video file.
+
+    ffmpeg -i original-video.mov -vcodec copy -acodec copy new-video.mp4
