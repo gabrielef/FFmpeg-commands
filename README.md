@@ -39,6 +39,6 @@ Rotate a video without transcode it.
 
 
 ###CHANGE CONTAINER
-Change the container of the video file.
+Change the container of a video file.
 
     ffmpeg -i original-video.mov -vcodec copy -acodec copy new-video.mp4
