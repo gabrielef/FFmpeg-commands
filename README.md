@@ -17,6 +17,16 @@ Crop a video witouth transcode it.
 
 (source: http://video.stackexchange.com/questions/4563/how-can-i-crop-a-video-with-ffmpeg)
 
+### SCALE
+Scale a video witouth transcode it.
+
+    ffmpeg -i original-video.mp4 -filter:v "scale=scale_w:scale_h" scaled-video.mp4
+
+***scale_w***: new width of the scaled video;
+
+***scale_h***: new height of the scaled video;
+
+(source: https://trac.ffmpeg.org/wiki/Scaling%20(resizing)%20with%20ffmpeg)
 
 ### CUT
 Cut a video at particular moment without transcode it. Time is in the form of hh:mm:ss.
