@@ -52,3 +52,7 @@ Rotate a video without transcode it.
 Change the container of a video file.
 
     ffmpeg -i original-video.mov -vcodec copy -acodec copy new-video.mp4
+
+###USEFUL LINKS
+https://trac.ffmpeg.org/wiki/Encode/MP3
+http://superuser.com/questions/579008/add-1-second-of-silence-to-audio-through-ffmpeg
